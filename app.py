@@ -6,7 +6,7 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret!'
 socketio = SocketIO(app)
 
-target_time = datetime(year=2022, month=11, day=17, hour=20, minute=30)
+target_time = datetime(year=2022, month=11, day=20, hour=10, minute=00)
 
 
 @app.route('/')
